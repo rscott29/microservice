@@ -28,6 +28,7 @@ public class MicroserviceApplication extends SpringBootServletInitializer {
             greetingRepository.save(new Greeting(1, "hello","Richard"));
             greetingRepository.save(new Greeting(2, "lovely test", "Bob"));
             greetingRepository.save(new Greeting(3, "Rawr", "Mikasa"));
+            greetingRepository.save(new Greeting(4, "Merry Christmas", "Santa"));
         };
 
     }
