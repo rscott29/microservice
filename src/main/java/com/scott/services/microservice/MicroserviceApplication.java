@@ -20,8 +20,8 @@ public class MicroserviceApplication extends SpringBootServletInitializer {
     @Bean
     public CommandLineRunner SeedGreetings(GreetingRepository greetingRepository) {
         return (args) -> {
-            greetingRepository.save(new Greeting(1, "hello"));
-            greetingRepository.save(new Greeting(2, "lovely test"));
+            greetingRepository.save(new Greeting(1, "hello","Richard"));
+            greetingRepository.save(new Greeting(2, "lovely test", "Bob"));
         };
 
     }

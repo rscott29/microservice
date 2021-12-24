@@ -16,5 +16,6 @@ public class Greeting {
     @GeneratedValue
     private Integer Id;
     private String Message;
+    private String MessageAuthor;
 
 }
