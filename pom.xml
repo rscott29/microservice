@@ -77,7 +77,7 @@
                 <configuration>
                     <url>http://localhost:8080/manager/text</url>
                     <server>TomcatServer</server>
-                    <path>/myapp</path>
+                    <path>/microservice</path>
                 </configuration>
             </plugin>
         </plugins>
